@@ -6,7 +6,7 @@ mostly ruby
 =======
 #google analytics
 
-======
+=======
 ### india.rb
 
 - 	a google analytics custom report for the weekly metrics for the international sites.
@@ -21,4 +21,5 @@ mostly ruby
 - 	google analytics custom report 
 
 # adzunaapi
+=======
 - 	scripts to get listings and salary data from adzuna api. can search by category and needs exact location
