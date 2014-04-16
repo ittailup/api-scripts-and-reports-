@@ -28,7 +28,6 @@ class CityCallCat < Array
     end
       
     baseURL = 'http://api.adzuna.com/v1/api/jobs/' + country + "/" + call
-    callparams = '?app_id=28f6787e&app_key=4dzun4pi'
     callparams = callparams + '&months=6' if params['call'] == 'history'
     callparams = callparams + '&category=' + params['category'] if params['call'] == 'category'
     callparams = callparams + '&what=' + params['what'] if params['call'] == 'search'
